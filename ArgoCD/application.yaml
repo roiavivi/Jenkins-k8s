@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: spring-petclinic
+  name: spring-petclinic-2
   namespace: argocd
 operation:
   initiatedBy:
@@ -12,7 +12,7 @@ spec:
   destination:
     namespace: default
     server: https://kubernetes.default.svc
-  project: demo1
+  project: demo2
   source:
     path: chart
     repoURL: https://github.com/roie710/spring-petclinic.git
