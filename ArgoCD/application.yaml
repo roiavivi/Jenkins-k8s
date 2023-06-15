@@ -15,7 +15,7 @@ spec:
   project: demo1
   source:
     path: chart
-    repoURL: https://github.com/elevy99927/spring-petclinic.git
+    repoURL: https://github.com/roie710/spring-petclinic.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
